@@ -9,8 +9,11 @@ In addition to the original report, the final report offers an extension section
 
 ## Authors
 Chen Zhang ([@ZCheryl](https://github.com/ZCheryl))
+
 Kenneth Lee ([@kenneth-lee-ch](https://github.com/kenneth-lee-ch))
-Rong Duan 
+
+Rong Duan
+
 Xialin Snag
 
 ## Original project report
