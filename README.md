@@ -6,4 +6,5 @@ This report is an analysis of STAR (Student-Teacher Achievement Ratio) project d
 In addition to the original report, the final report offers an extension section, providing various analysis on other factors that might have a significant influence student performance, such as school location and charateristics of teachers.  
 
 Github Repository of original project 2 report: https://github.com/kenneth-lee-ch/STA-207/tree/master/project2
+
 RPubs: https://rpubs.com/Cherylz/projectSTAR
