@@ -14,7 +14,7 @@ Kenneth Lee ([@kenneth-lee-ch](https://github.com/kenneth-lee-ch))
 
 Rong Duan
 
-Xialin Snag
+Xialin Sang
 
 ## Original project report
 https://github.com/kenneth-lee-ch/STA-207/tree/master/project2
