@@ -1,2 +1,6 @@
 # STA-207
-Presenting the final project of STA 207
+Presenting the final report of STA 207
+
+This report is an analysis of STAR (Student-Teacher Achievement Ratio) project data specifically targeted the 1st graders’ dataset with teacher as the unit (class-level average score). This report investigates the effect of class size (small, regular, regalar + aide) on the class-level mathematical performance on a standardized test. The analysis consists of the exploratory data analysis, two-way ANOVA, model diagnostics, hypothesis testing, and discussion of possible causal inference can be drawn from the STAR experiment.
+
+In addition to the original report, the final report offers an extension section, providing various analysis on other factors that might have a significant influence student performance, such as school location and charateristics of teachers.  
