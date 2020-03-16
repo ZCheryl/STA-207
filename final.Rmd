@@ -33,9 +33,9 @@ Chen Zhang (Model result & diagnostics, additional EDA, reproducibility)
 
 Kenneth Lee (EDA, model setup, Rshiny, reproducibility)
 
-Rong Duan (Causal Statement, extension writeup)
+Rong Duan (Causal Statement, extension and code cleanup) 
 
-Xialin Snag (Hypothesis testing and regression model)
+Xialin Sang (Hypothesis testing, additional EDA, and regression model)
 
 Github repo: https://github.com/ZCheryl/STA-207
 
@@ -477,7 +477,7 @@ In addition, we implemented a randomized block design in project 2 by adding the
 
 ### 5.1 Exploratory Data Analysis on School Location
 
-At the beginning of re-exploration, we would like to delve into why school is designed to be the blocking factor. We believe that the location is an important source of heterogeneity of school. `Figure 6`left panel shows a scatter plot of math scores ordered by school id, where location is the main consideration. There is a clear pattern that a larger portion of school is in the rural area (blue color) and their students generally perform better in the math tests. In contrast, we can observe the red inner-city schools are clustered to the left. Collectively, the students attending inner-city schools have lower math scores compared with other locations. This trend of strong association between inner-city schools and lower math scores can be confirmed with the boxplot on the right panel of `Figure 6`.  
+At the beginning of re-exploration, we would like to delve into why school is designed to be the blocking factor. We believe that the location is an important source of heterogeneity of school. `Figure 6` left panel shows a scatter plot of math scores ordered by school id, where location is the main consideration. There is a clear pattern that a larger portion of school is in the rural area (blue color) and their students generally perform better in the math tests. In contrast, we can observe the red inner-city schools are clustered to the left. Collectively, the students attending inner-city schools have lower math scores compared with other locations. This trend of strong association between inner-city schools and lower math scores can be confirmed with the boxplot on the right panel of `Figure 6`.  
 
 According to project description, schools that have more than half of their students on free or reduced cost lunch were tentatively defined as inner-city, which is an indicative of a low socioeconomic background. Inner-city and suburban schools are all located in metropolitan areas. Perhaps this is a cause of low scores. The school is tentatively designed as a block factor not only because it is easy and natural to implement, but also it serves a purpose of reducing the effect of nuisance factors.    
 
@@ -611,7 +611,7 @@ vis_miss(sorted_long)
 
 ***Figure 7***: *Missing Data Plot.* The blackout areas indicate missing entries, and the gray areas represent entries that are present. More than half of the data are not complete.
 
-Within these student, we are furthered interested in which students have continuously stayed in the same class type (small class or regular class). An alluvial diagram here can help us track the flow of student(`Figure 8`). We can see that students from regular classes are most active in switching into other classrooms and the total number of student is shrinking. Visibly, there are two streams of students from regular class, going into other class types every year. Eventually we use the students that stay in the same class type for the next plot (`Figure 9`). 
+Within these student, we are furthered interested in which students have continuously stayed in the same class type (small class or regular class). An alluvial diagram here can help us track the flow of student (`Figure 8`). We can see that students from regular classes are most active in switching into other classrooms and the total number of student is shrinking. Visibly, there are two streams of students from regular class, going into other class types every year. Eventually we use the students that stay in the same class type for the next plot (`Figure 9`). 
 
 ```{r alluvial plot, echo=FALSE, warning=FALSE, message=FALSE, fig.width=8, fig.height=4, fig.align="center"}
 
